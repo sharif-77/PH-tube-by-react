@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
 
         <button className="btn btn-success text-white m-auto block" 
-        onClick={() => setShowMore(!showMore)}>{showMore?'See Less':'show More'}</button>
+        onClick={() => setShowMore(!showMore)}>{showMore?'Show Less':'Show More'}</button>
       </main>
     </div>
   );
